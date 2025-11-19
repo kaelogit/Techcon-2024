@@ -4,36 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechCon 2024</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1><img src="techconlogo.png" alt="Logo" width="150" height="50">2024</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="register.html">Register</a>
-            <a href="schedule.html">Schedule</a>
-            <a href="contacts.html">Contacts</a>
-            <a href="about.html">About us</a>
-        </nav>
+        <div>
+            <h1>TechCon 2024</h1>
+            <nav>
+                <ul class="list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="about.html">About us</a></li>
+                </ul>
+            </nav>    
+        </div>
     </header>
     <main>
-        <section>
-            <h2>Welcome to TechCon 2024!</h2>
-            <p>Join us for an exciting event filled with the latest in technology, innovation, and networking opportunities. TechCon 2024 brings together industry leaders, professionals, and enthusiasts from around the world.</p>
-            <video width="600" height="200" controls>
-                <source src="videotest.mp4" type="video/mp4">
-                <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
-            </video>
+        <section class="firstsection">
+            <div class="firstsection-inner">
+                <h2 class="welcome">Welcome to TechCon 2024!</h2>
+                <div class="kkk">
+                    <p>Join us for an exciting event filled with the latest in technology, innovation, and networking opportunities. TechCon 2024 brings together industry leaders, professionals, and enthusiasts from around the world.</p>
+                    <video controls preload="metadata" poster="poster.jpg">
+                        <source src="videotest.mp4" type="video/mp4">
+                        <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English" default>
+                    </video>
+                </div>
+            </div>
         </section>
         <section>
-            <h2>Event Highlights</h2>
-            <ul>
-                <li>Keynote speeches from tech industry leaders</li>
-                <li>Hands-on workshops and tutorials</li>
-                <li>Networking sessions with professionals</li>
-                <li>Exhibition of the latest tech products and innovations</li>
-            </ul>
-    </main>
+            <div class="highlights">
+                <h2>Event Highlights</h2>
+                <ul>
+                    <li>Keynote speeches from tech industry leaders</li>
+                    <li>Hands-on workshops and tutorials</li>
+                    <li>Networking sessions with professionals</li>
+                    <li>Exhibition of the latest tech products and innovations</li>
+                </ul>
+            </div>
+        </section>
+        </main>
     <footer>
         <p>&copy; 2025 TechCon. All rights reserved.</p>
     </footer>
